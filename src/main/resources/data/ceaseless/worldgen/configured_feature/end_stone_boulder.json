@@ -1,0 +1,28 @@
+{
+  "type": "ceaseless:boulder_feature",
+  "config": {
+    "height": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 5,
+      "max_inclusive": 9
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 1,
+      "max_inclusive": 3
+    },
+    "block_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": { "Name": "minecraft:end_stone" },
+          "weight": 3
+        },
+        {
+          "data": { "Name": "ceaseless:infested_end_stone" },
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

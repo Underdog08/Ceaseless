@@ -1,0 +1,54 @@
+{
+  "temperature": 0,
+  "downfall": 0,
+  "has_precipitation": false,
+  "temperature_modifier": "none",
+  "effects": {
+    "sky_color": 0,
+    "fog_color": 0,
+    "water_color": 0,
+    "water_fog_color": 0,
+    "grass_color": 16711618,
+    "foliage_color": 16710892,
+    "grass_color_modifier": "none",
+    "mood_sound": {
+      "sound": "minecraft:ambient.soul_sand_valley.mood",
+      "tick_delay": 12000,
+      "block_search_extent": 2,
+      "offset": 0
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "ceaseless:sandmite",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": [
+    "minecraft:nether_cave"
+  ],
+  "features": [
+    [],
+    [],
+    [
+      "ceaseless:end_wastes_boulder"
+    ],
+    [],
+    [
+      "minecraft:end_gateway_return"
+    ],
+    [],
+    [
+      "ceaseless:bismuth_ore"
+    ],
+    [],
+    [],
+    [],
+    []
+  ]
+}

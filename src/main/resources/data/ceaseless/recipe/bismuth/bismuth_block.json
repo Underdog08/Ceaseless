@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": [
+      "ceaseless:bismuth"
+    ]
+  },
+  "result": {
+    "id": "ceaseless:bismuth_block",
+    "count": 1
+  }
+}

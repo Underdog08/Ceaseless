@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "ceaseless:block/tetherstone_bottom",
+    "side": "ceaseless:block/tetherstone_side",
+    "top": "ceaseless:block/tetherstone_top"
+  }
+}

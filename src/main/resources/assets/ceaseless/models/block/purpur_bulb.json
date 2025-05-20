@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "ceaseless:block/purpur_bulb_on"
+  }
+}

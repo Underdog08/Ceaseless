@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": [
+    "ceaseless:end_wastes_highlands", "ceaseless:end_wastes_midlands"
+  ],
+  "step": "raw_generation",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {},
+  "start_pool": "ceaseless:mite_tunnels_start",
+  "size": 7,
+  "start_height": {
+    "absolute": -18
+  },
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "max_distance_from_center": 100,
+  "use_expansion_hack": false,
+  "liquid_settings": "apply_waterlogging"
+}

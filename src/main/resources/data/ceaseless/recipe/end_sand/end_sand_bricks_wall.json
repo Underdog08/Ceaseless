@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": [
+      "ceaseless:end_sand_bricks"
+    ]
+  },
+  "result": {
+    "id": "ceaseless:end_sand_bricks_wall",
+    "count": 6
+  }
+}

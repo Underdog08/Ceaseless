@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ceaseless:end_sand",
+              "ceaseless:packed_end_sand",
+              "ceaseless:polished_end_sand",
+              "ceaseless:polished_end_sand_stairs",
+              "ceaseless:polished_end_sand_slab",
+              "ceaseless:polished_end_sand_wall",
+              "ceaseless:end_sand_bricks",
+              "ceaseless:end_sand_bricks_stairs",
+              "ceaseless:end_sand_bricks_slab",
+              "ceaseless:end_sand_bricks_wall"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "a"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ceaseless:end_sand/packed_end_sand",
+      "ceaseless:end_sand/polished_end_sand",
+      "ceaseless:end_sand/polished_end_sand_stairs",
+      "ceaseless:end_sand/polished_end_sand_slab",
+      "ceaseless:end_sand/polished_end_sand_wall",
+      "ceaseless:end_sand/end_sand_bricks",
+      "ceaseless:end_sand/end_sand_bricks_stairs",
+      "ceaseless:end_sand/end_sand_bricks_slab",
+      "ceaseless:end_sand/end_sand_bricks_wall"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "com.under.ceaseless.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin",
+		"EndPortalFrameBlockMixin",
+		"InGameHudMixin",
+		"SproutsBlockMixin",
+		"FungusBlockMixin",
+		"RootsBlockMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

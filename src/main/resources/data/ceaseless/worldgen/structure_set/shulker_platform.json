@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "ceaseless:shulker_platform",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 16,
+    "separation": 5,
+    "spread_type": "triangular",
+    "salt": 32467804
+  }
+}

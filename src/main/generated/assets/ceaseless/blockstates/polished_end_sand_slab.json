@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ceaseless:block/polished_end_sand_slab"
+    },
+    "type=double": {
+      "model": "ceaseless:block/polished_end_sand"
+    },
+    "type=top": {
+      "model": "ceaseless:block/polished_end_sand_slab_top"
+    }
+  }
+}

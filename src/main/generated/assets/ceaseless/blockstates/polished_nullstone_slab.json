@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ceaseless:block/polished_nullstone_slab"
+    },
+    "type=double": {
+      "model": "ceaseless:block/polished_nullstone"
+    },
+    "type=top": {
+      "model": "ceaseless:block/polished_nullstone_slab_top"
+    }
+  }
+}

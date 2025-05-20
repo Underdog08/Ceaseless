@@ -1,0 +1,43 @@
+{
+	"schemaVersion": 1,
+	"id": "ceaseless",
+	"version": "${version}",
+	"name": "Ceaseless",
+	"description": "An End Update concept with a goal to feel vanilla.",
+	"authors": [
+		"Under"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/ceaseless/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.under.ceaseless.Ceaseless"
+		],
+		"fabric-datagen": [
+			"com.under.ceaseless.CeaselessDataGenerator"
+		],
+		"client": [
+			"com.under.ceaseless.CeaselessClient"
+		],
+		"terrablender": [
+			"com.under.ceaseless.world.ModTerraBlenderAPI"
+		]
+	},
+	"mixins": [
+		"ceaseless.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

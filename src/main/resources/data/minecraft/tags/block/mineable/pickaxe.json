@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "ceaseless:bismuth_ore",
+    "ceaseless:infested_end_stone",
+    "ceaseless:polished_end_stone",
+    "ceaseless:packed_end_sand",
+    "ceaseless:polished_end_sand",
+    "ceaseless:polished_end_sand_stairs",
+    "ceaseless:polished_end_sand_slab",
+    "ceaseless:polished_end_sand_wall",
+    "ceaseless:end_sand_bricks",
+    "ceaseless:end_sand_bricks_stairs",
+    "ceaseless:end_sand_bricks_slab",
+    "ceaseless:end_sand_bricks_wall",
+    "ceaseless:nullstone",
+    "ceaseless:polished_nullstone",
+    "ceaseless:polished_nullstone_stairs",
+    "ceaseless:polished_nullstone_slab",
+    "ceaseless:polished_nullstone_wall",
+    "ceaseless:cut_nullstone",
+    "ceaseless:cut_nullstone_stairs",
+    "ceaseless:cut_nullstone_slab",
+    "ceaseless:chiseled_nullstone",
+    "ceaseless:purpur_bulb",
+    "ceaseless:bismuth_block"
+  ]
+}

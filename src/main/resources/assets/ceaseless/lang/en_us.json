@@ -1,0 +1,90 @@
+{
+  "block.ceaseless.nullstone": "Nullstone",
+  "item.ceaseless.nullstone": "Nullstone",
+
+  "block.ceaseless.polished_nullstone": "Polished Nullstone",
+  "item.ceaseless.polished_nullstone": "Polished Nullstone",
+
+  "block.ceaseless.polished_nullstone_stairs": "Polished Nullstone Stairs",
+  "item.ceaseless.polished_nullstone_stairs": "Polished Nullstone Stairs",
+
+  "block.ceaseless.polished_nullstone_slab": "Polished Nullstone Slab",
+  "item.ceaseless.polished_nullstone_slab": "Polished Nullstone Slab",
+
+  "block.ceaseless.polished_nullstone_wall": "Polished Nullstone Wall",
+  "item.ceaseless.polished_nullstone_wall": "Polished Nullstone Wall",
+
+  "block.ceaseless.cut_nullstone": "Cut Nullstone",
+  "item.ceaseless.cut_nullstone": "Cut Nullstone",
+
+  "block.ceaseless.cut_nullstone_stairs": "Cut Nullstone Stairs",
+  "item.ceaseless.cut_nullstone_stairs": "Cut Nullstone Stairs",
+
+  "block.ceaseless.cut_nullstone_slab": "Cut Nullstone Slab",
+  "item.ceaseless.cut_nullstone_slab": "Cut Nullstone Slab",
+
+  "block.ceaseless.chiseled_nullstone": "Chiseled Nullstone",
+  "item.ceaseless.chiseled_nullstone": "Chiseled Nullstone",
+
+  "block.ceaseless.end_sand": "End Sand",
+  "item.ceaseless.end_sand": "End Sand",
+
+  "block.ceaseless.packed_end_sand": "Packed End Sand",
+  "item.ceaseless.packed_end_sand": "Packed End Sand",
+
+  "block.ceaseless.end_sand_bricks": "End Sand Bricks",
+  "item.ceaseless.end_sand_bricks": "End Sand Bricks",
+
+  "block.ceaseless.end_sand_bricks_wall": "End Sand Bricks Wall",
+  "item.ceaseless.end_sand_bricks_wall": "End Sand Bricks Wall",
+
+  "block.ceaseless.end_sand_bricks_stairs": "End Sand Bricks Stairs",
+  "item.ceaseless.end_sand_bricks_stairs": "End Sand Bricks Stairs",
+
+  "block.ceaseless.end_sand_bricks_slab": "End Sand Bricks Slab",
+  "item.ceaseless.end_sand_bricks_slab": "End Sand Bricks Slab",
+
+  "block.ceaseless.polished_end_sand": "Polished End Sand",
+  "item.ceaseless.polished_end_sand": "Polished End Sand",
+
+  "block.ceaseless.polished_end_sand_wall": "Polished End Sand Wall",
+  "item.ceaseless.polished_end_sand_wall": "Polished End Sand Wall",
+
+  "block.ceaseless.polished_end_sand_stairs": "Polished End Sand Stairs",
+  "item.ceaseless.polished_end_sand_stairs": "Polished End Sand Stairs",
+
+  "block.ceaseless.polished_end_sand_slab": "Polished End Sand Slab",
+  "item.ceaseless.polished_end_sand_slab": "Polished End Sand Slab",
+
+  "block.ceaseless.warped_facade": "Warped Facade",
+  "item.ceaseless.warped_facade": "Warped Facade",
+
+  "block.ceaseless.polished_end_stone": "Polished End Stone",
+  "item.ceaseless.polished_end_stone": "Polished End Stone",
+
+  "block.ceaseless.infested_end_stone": "Infested End Stone",
+  "item.ceaseless.infested_end_stone": "Infested End Stone",
+
+  "block.ceaseless.sallow_facade": "Sallow Facade",
+  "item.ceaseless.sallow_facade": "Sallow Facade",
+
+  "block.ceaseless.bismuth_ore": "Bismuth Ore",
+  "item.ceaseless.bismuth_ore": "Bismuth Ore",
+
+  "block.ceaseless.tetherstone": "Tetherstone",
+  "item.ceaseless.tetherstone": "Tetherstone",
+
+  "block.ceaseless.purpur_bulb": "Purpur Bulb",
+  "item.ceaseless.purpur_bulb": "Purpur Bulb",
+
+  "block.ceaseless.bismuth_block": "Bismuth Block",
+  "item.ceaseless.bismuth_block": "Bismuth Block",
+
+  "item.ceaseless.bismuth": "Bismuth",
+  "item.ceaseless.mite_gel": "Mite Gel",
+  "item.ceaseless.sandmite_spawn_egg": "Sandmite Spawn Egg",
+
+  "effect.ceaseless.purplexed": "Purplexed",
+
+  "entity.ceaseless.sandmite": "Sandmite"
+}

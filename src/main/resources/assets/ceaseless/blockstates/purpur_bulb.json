@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "on=false": { "model": "ceaseless:block/purpur_bulb_off" },
+    "on=true":  { "model": "ceaseless:block/purpur_bulb_on" }
+  }
+}

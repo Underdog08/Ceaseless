@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "A",
+    "A"
+  ],
+  "key": {
+    "A": [
+      "ceaseless:polished_nullstone_slab"
+    ]
+  },
+  "result": {
+    "id": "ceaseless:chiseled_nullstone",
+    "count": 1
+  }
+}

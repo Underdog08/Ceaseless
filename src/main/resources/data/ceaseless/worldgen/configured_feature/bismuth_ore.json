@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "end_stone"
+        },
+        "state": {
+          "Name": "ceaseless:bismuth_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "ceaseless:packed_end_sand"
+        },
+        "state": {
+          "Name": "ceaseless:bismuth_ore"
+        }
+      }
+    ],
+    "size": 8,
+    "discard_chance_on_air_exposure": 0
+  }
+}

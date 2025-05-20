@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ceaseless:nullstone",
+              "ceaseless:polished_nullstone",
+              "ceaseless:polished_nullstone_stairs",
+              "ceaseless:polished_nullstone_slab",
+              "ceaseless:polished_nullstone_wall",
+              "ceaseless:cut_nullstone",
+              "ceaseless:cut_nullstone_stairs",
+              "ceaseless:cut_nullstone_slab",
+              "ceaseless:chiseled_nullstone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "a"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ceaseless:nullstone/polished_nullstone",
+      "ceaseless:nullstone/polished_nullstone_stairs",
+      "ceaseless:nullstone/polished_nullstone_slab",
+      "ceaseless:nullstone/polished_nullstone_wall",
+      "ceaseless:nullstone/cut_nullstone",
+      "ceaseless:nullstone/cut_nullstone_stairs",
+      "ceaseless:nullstone/cut_nullstone_slab",
+      "ceaseless:nullstone/chiseled_nullstone"
+    ]
+  }
+}

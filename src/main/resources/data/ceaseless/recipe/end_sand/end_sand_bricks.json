@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "AA",
+    "AA"
+  ],
+  "key": {
+    "A": [
+      "ceaseless:polished_end_sand"
+    ]
+  },
+  "result": {
+    "id": "ceaseless:end_sand_bricks",
+    "count": 4
+  }
+}

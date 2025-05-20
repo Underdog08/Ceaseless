@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "ceaseless:block/chiseled_nullstone_bottom",
+    "side": "ceaseless:block/chiseled_nullstone_side",
+    "top": "ceaseless:block/chiseled_nullstone_top"
+  }
+}

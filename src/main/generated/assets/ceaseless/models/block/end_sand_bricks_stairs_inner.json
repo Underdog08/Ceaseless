@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "ceaseless:block/end_sand_bricks",
+    "side": "ceaseless:block/end_sand_bricks",
+    "top": "ceaseless:block/end_sand_bricks"
+  }
+}
