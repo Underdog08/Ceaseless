@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:canyon",
+  "config": {
+    "probability": 0.4,
+    "y": {
+      "type": "minecraft:uniform",
+      "min_inclusive": {
+        "absolute": 60
+      },
+      "max_inclusive": {
+        "absolute": 70
+      }
+    },
+    "yScale": 1,
+    "lava_level": {
+      "absolute": 0
+    },
+    "debug_settings": {
+      "debug_mode": false,
+      "air_state": {
+        "Name": "minecraft:air"
+      },
+      "water_state": {
+        "Name": "minecraft:water"
+      },
+      "lava_state": {
+        "Name": "minecraft:lava"
+      },
+      "barrier_state": {
+        "Name": "barrier"
+      }
+    },
+    "vertical_rotation": 0,
+    "shape": {
+      "distance_factor": 1,
+      "thickness": 0.6,
+      "width_smoothness": 1,
+      "horizontal_radius_factor": 1.5,
+      "vertical_radius_default_factor": 0.8,
+      "vertical_radius_center_factor": 1
+    },
+    "replaceable": [
+      "minecraft:end_stone", "ceaseless:sallow_facade"
+    ]
+  }
+}

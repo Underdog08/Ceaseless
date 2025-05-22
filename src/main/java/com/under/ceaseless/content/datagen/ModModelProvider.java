@@ -42,6 +42,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSingleton(ModBlocks.WARPED_FACADE, TexturedModel.CUBE_BOTTOM_TOP);
         blockStateModelGenerator.registerSingleton(ModBlocks.END_STONE_PILLAR, TexturedModel.CUBE_COLUMN);
         blockStateModelGenerator.registerSingleton(ModBlocks.SALLOW_FACADE, TexturedModel.CUBE_BOTTOM_TOP);
+        blockStateModelGenerator.registerTintableCross(ModBlocks.SALLOW_BRAMBLE, BlockStateModelGenerator.CrossType.NOT_TINTED);
         blockStateModelGenerator.registerSingleton(ModBlocks.TETHERSTONE, TexturedModel.CUBE_BOTTOM_TOP);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.POLISHED_END_STONE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.INFESTED_END_STONE);
@@ -53,5 +54,6 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.MITE_GEL, Models.GENERATED);
         itemModelGenerator.register(ModItems.BISMUTH, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TUNED_CHORUS_FRUIT, Models.GENERATED);
     }
 }

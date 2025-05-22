@@ -1,6 +1,7 @@
 package com.under.ceaseless;
 
 import com.under.ceaseless.content.block.ModBlocks;
+import com.under.ceaseless.content.component.ModComponentTypes;
 import com.under.ceaseless.content.effect.ModEffects;
 import com.under.ceaseless.content.entity.ModEntities;
 import com.under.ceaseless.content.item.ModItemGroups;
@@ -23,5 +24,6 @@ public class Ceaseless implements ModInitializer {
 		ModItemGroups.initialize();
 		ModItems.initialize();
 		ModEffects.initialize();
+		ModComponentTypes.initialize();
 	}
 }

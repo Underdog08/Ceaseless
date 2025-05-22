@@ -226,6 +226,17 @@ public class ModBlocks {
             AbstractBlock.Settings.create(),
             true);
 
+    public static final Block SALLOW_BRAMBLE = register("sallow_bramble",
+            settings -> new BrambleBlock(settings
+                    .sounds(BlockSoundGroup.GRASS)
+                    .strength(0, 0)
+                    .nonOpaque()
+                    .noCollision()
+                    .offset(AbstractBlock.OffsetType.XZ)
+                    .dynamicBounds()),
+            AbstractBlock.Settings.create(),
+            true);
+
     public static final Block BISMUTH_ORE = register("bismuth_ore",
             settings -> new Block(settings
                     .sounds(BlockSoundGroup.NETHERITE)

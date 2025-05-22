@@ -3,7 +3,7 @@
   "biomes": [
     "ceaseless:end_wastes_highlands", "ceaseless:end_wastes_midlands"
   ],
-  "step": "raw_generation",
+  "step": "underground_ores",
   "terrain_adaptation": "none",
   "spawn_overrides": {},
   "start_pool": "ceaseless:mite_tunnels_start",

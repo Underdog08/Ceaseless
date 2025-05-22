@@ -27,6 +27,15 @@ public class ModBiomes {
     public static final RegistryKey<Biome> END_WASTES_EDGE = RegistryKey.of(RegistryKeys.BIOME,
             Identifier.of(Ceaseless.MOD_ID, "end_wastes_edge"));
 
+    public static final RegistryKey<Biome> SALLOW_FIELDS_HIGHLANDS = RegistryKey.of(RegistryKeys.BIOME,
+            Identifier.of(Ceaseless.MOD_ID, "sallow_fields_highlands"));
+
+    public static final RegistryKey<Biome> SALLOW_FIELDS_MIDLANDS = RegistryKey.of(RegistryKeys.BIOME,
+            Identifier.of(Ceaseless.MOD_ID, "sallow_fields_midlands"));
+
+    public static final RegistryKey<Biome> SALLOW_FIELDS_EDGE = RegistryKey.of(RegistryKeys.BIOME,
+            Identifier.of(Ceaseless.MOD_ID, "sallow_fields_edge"));
+
     public static void bootstrap(Registerable<Biome> context) {
         //context.register(DISTORTED_FOREST, distortedForest(context));
     }

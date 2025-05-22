@@ -45,8 +45,8 @@ public class SandmiteEntity extends HostileEntity {
     public static DefaultAttributeContainer.Builder createSandmiteAttributes() {
         return MobEntity.createMobAttributes()
                 .add(EntityAttributes.MAX_HEALTH, 30.0)
-                .add(EntityAttributes.MOVEMENT_SPEED, 0.2)
-                .add(EntityAttributes.ATTACK_DAMAGE, 4.0)
+                .add(EntityAttributes.MOVEMENT_SPEED, 0.3)
+                .add(EntityAttributes.ATTACK_DAMAGE, 7.0)
                 .add(EntityAttributes.ARMOR, 2.0)
                 .add(EntityAttributes.ATTACK_KNOCKBACK, 0.5)
                 .add(EntityAttributes.KNOCKBACK_RESISTANCE, 1.0);
@@ -127,8 +127,7 @@ public class SandmiteEntity extends HostileEntity {
             if (this.random.nextFloat() < 0.25f) {
                 livingTarget.addStatusEffect(new StatusEffectInstance(
                         ModEffects.PURPLEXED,
-                        random.nextInt(200) + 100,
-                        0
+                        random.nextInt(200) + 100
                 ));
             }
         }

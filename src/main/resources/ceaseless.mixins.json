@@ -8,7 +8,10 @@
 		"InGameHudMixin",
 		"SproutsBlockMixin",
 		"FungusBlockMixin",
-		"RootsBlockMixin"
+		"RootsBlockMixin",
+		"ChorusPlantBlockMixin",
+		"ChorusFlowerBlockMixin",
+		"ChorusPlantFeatureMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
