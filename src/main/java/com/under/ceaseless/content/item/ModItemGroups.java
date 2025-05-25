@@ -13,7 +13,7 @@ import net.minecraft.util.Identifier;
 public class ModItemGroups {
     public static final ItemGroup CEASELESS = Registry.register(Registries.ITEM_GROUP, Identifier.of(Ceaseless.MOD_ID, "ceaseless"),
             FabricItemGroup.builder()
-                    .icon(() -> new ItemStack(ModBlocks.END_SAND.asItem()))
+                    .icon(() -> new ItemStack(ModItems.BISMUTH))
                     .displayName(Text.literal("Ceaseless"))
                     .entries(((displayContext, entries) -> {
                         entries.add(ModBlocks.END_SAND.asItem());
@@ -36,6 +36,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CUT_NULLSTONE_SLAB.asItem());
                         entries.add(ModBlocks.CHISELED_NULLSTONE.asItem());
                         entries.add(ModBlocks.POLISHED_END_STONE.asItem());
+                        entries.add(ModBlocks.POLISHED_END_STONE_STAIRS.asItem());
+                        entries.add(ModBlocks.POLISHED_END_STONE_SLAB.asItem());
+                        entries.add(ModBlocks.POLISHED_END_STONE_WALL.asItem());
+                        entries.add(ModBlocks.CHISELED_END_STONE.asItem());
+                        entries.add(ModBlocks.END_STONE_PILLAR.asItem());
                         entries.add(ModBlocks.INFESTED_END_STONE.asItem());
                         entries.add(ModBlocks.BISMUTH_ORE.asItem());
                         entries.add(ModBlocks.BISMUTH_BLOCK.asItem());

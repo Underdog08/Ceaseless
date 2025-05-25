@@ -4,6 +4,8 @@ import com.under.ceaseless.content.block.ModBlocks;
 import com.under.ceaseless.content.item.ModItems;
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
 import net.minecraft.client.data.BlockStateModelGenerator;
 import net.minecraft.client.data.ItemModelGenerator;
 import net.minecraft.client.data.Models;
@@ -20,6 +22,7 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool cutNullstonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CUT_NULLSTONE);
         BlockStateModelGenerator.BlockTexturePool polishedEndSandPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_END_SAND);
         BlockStateModelGenerator.BlockTexturePool endSandBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.END_SAND_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool polishedEndStonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_END_STONE);
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_SAND);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PACKED_END_SAND);
@@ -40,11 +43,16 @@ public class ModModelProvider extends FabricModelProvider {
 
 
         blockStateModelGenerator.registerSingleton(ModBlocks.WARPED_FACADE, TexturedModel.CUBE_BOTTOM_TOP);
-        blockStateModelGenerator.registerSingleton(ModBlocks.END_STONE_PILLAR, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerAxisRotated(ModBlocks.END_STONE_PILLAR, TexturedModel.CUBE_COLUMN);
         blockStateModelGenerator.registerSingleton(ModBlocks.SALLOW_FACADE, TexturedModel.CUBE_BOTTOM_TOP);
         blockStateModelGenerator.registerTintableCross(ModBlocks.SALLOW_BRAMBLE, BlockStateModelGenerator.CrossType.NOT_TINTED);
         blockStateModelGenerator.registerSingleton(ModBlocks.TETHERSTONE, TexturedModel.CUBE_BOTTOM_TOP);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.POLISHED_END_STONE);
+
+        polishedEndStonePool.wall(ModBlocks.POLISHED_END_STONE_WALL);
+        polishedEndStonePool.stairs(ModBlocks.POLISHED_END_STONE_STAIRS);
+        polishedEndStonePool.slab(ModBlocks.POLISHED_END_STONE_SLAB);
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CHISELED_END_STONE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.INFESTED_END_STONE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BISMUTH_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BISMUTH_BLOCK);
@@ -54,6 +62,5 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.MITE_GEL, Models.GENERATED);
         itemModelGenerator.register(ModItems.BISMUTH, Models.GENERATED);
-        itemModelGenerator.register(ModItems.TUNED_CHORUS_FRUIT, Models.GENERATED);
     }
 }

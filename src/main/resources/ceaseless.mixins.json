@@ -11,7 +11,8 @@
 		"RootsBlockMixin",
 		"ChorusPlantBlockMixin",
 		"ChorusFlowerBlockMixin",
-		"ChorusPlantFeatureMixin"
+		"ChorusPlantFeatureMixin",
+		"TeleportRandomlyConsumeEffectMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

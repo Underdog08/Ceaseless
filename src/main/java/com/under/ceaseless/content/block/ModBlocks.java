@@ -35,7 +35,7 @@ public class ModBlocks {
 
     public static final Block END_SAND_BRICKS = register("end_sand_bricks",
             settings -> new Block(settings
-                    .sounds(BlockSoundGroup.STONE)
+                    .sounds(BlockSoundGroup.BASALT)
                     .solid()
                     .requiresTool()
                     .strength(Blocks.END_STONE.getHardness(), Blocks.END_STONE.getBlastResistance())),
@@ -44,7 +44,7 @@ public class ModBlocks {
 
     public static final Block END_SAND_BRICKS_WALL = register("end_sand_bricks_wall",
             settings -> new WallBlock(settings
-                    .sounds(BlockSoundGroup.STONE)
+                    .sounds(BlockSoundGroup.BASALT)
                     .solid()
                     .requiresTool()
                     .strength(Blocks.END_STONE.getHardness(), Blocks.END_STONE.getBlastResistance())),
@@ -71,7 +71,7 @@ public class ModBlocks {
 
     public static final Block POLISHED_END_SAND = register("polished_end_sand",
             settings -> new Block(settings
-                    .sounds(BlockSoundGroup.STONE)
+                    .sounds(BlockSoundGroup.BASALT)
                     .solid()
                     .requiresTool()
                     .strength(Blocks.END_STONE.getHardness(), Blocks.END_STONE.getBlastResistance())),
@@ -80,7 +80,7 @@ public class ModBlocks {
 
     public static final Block POLISHED_END_SAND_WALL = register("polished_end_sand_wall",
             settings -> new WallBlock(settings
-                    .sounds(BlockSoundGroup.STONE)
+                    .sounds(BlockSoundGroup.BASALT)
                     .solid()
                     .requiresTool()
                     .strength(Blocks.END_STONE.getHardness(), Blocks.END_STONE.getBlastResistance())),
@@ -202,8 +202,42 @@ public class ModBlocks {
             AbstractBlock.Settings.create(),
             true);
 
+    public static final Block POLISHED_END_STONE_WALL = register("polished_end_stone_wall",
+            settings -> new WallBlock(settings
+                    .sounds(BlockSoundGroup.STONE)
+                    .solid()
+                    .requiresTool()
+                    .strength(Blocks.END_STONE.getHardness(), Blocks.END_STONE.getBlastResistance())),
+            AbstractBlock.Settings.create(),
+            true);
+
+    public static final Block POLISHED_END_STONE_STAIRS = register("polished_end_stone_stairs",
+            settings -> new StairsBlock(ModBlocks.POLISHED_NULLSTONE.getDefaultState(), settings
+                    .sounds(BlockSoundGroup.STONE)
+                    .solid()
+                    .requiresTool()
+                    .strength(Blocks.END_STONE.getHardness(), Blocks.END_STONE.getBlastResistance())),
+            AbstractBlock.Settings.create(),
+            true);
+
+    public static final Block POLISHED_END_STONE_SLAB = register("polished_end_stone_slab",
+            settings -> new SlabBlock(settings
+                    .sounds(BlockSoundGroup.STONE)
+                    .solid()
+                    .requiresTool()
+                    .strength(Blocks.END_STONE.getHardness(), Blocks.END_STONE.getBlastResistance())),
+            AbstractBlock.Settings.create(),
+            true);
+
     public static final Block END_STONE_PILLAR = register("end_stone_pillar",
             settings -> new PillarBlock(settings
+                    .requiresTool()
+                    .strength(Blocks.END_STONE.getHardness(), Blocks.END_STONE.getBlastResistance())),
+            AbstractBlock.Settings.create(),
+            true);
+
+    public static final Block CHISELED_END_STONE = register("chiseled_end_stone",
+            settings -> new Block(settings
                     .requiresTool()
                     .strength(Blocks.END_STONE.getHardness(), Blocks.END_STONE.getBlastResistance())),
             AbstractBlock.Settings.create(),

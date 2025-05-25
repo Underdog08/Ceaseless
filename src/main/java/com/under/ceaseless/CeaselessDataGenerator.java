@@ -1,5 +1,7 @@
 package com.under.ceaseless;
 
+import com.under.ceaseless.content.datagen.ModBlockTagProvider;
+import com.under.ceaseless.content.datagen.ModItemTagProvider;
 import com.under.ceaseless.content.datagen.ModModelProvider;
 import com.under.ceaseless.content.datagen.ModWorldGenerator;
 import com.under.ceaseless.world.ModBiomes;
@@ -15,6 +17,8 @@ public class CeaselessDataGenerator implements DataGeneratorEntrypoint {
 
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModWorldGenerator::new);
+		pack.addProvider(ModBlockTagProvider::new);
+		pack.addProvider(ModItemTagProvider::new);
 	}
 
 	@Override

@@ -19,7 +19,14 @@
     }
   },
   "spawners": {
-    "monster": []
+    "monster": [
+      {
+        "type": "minecraft:enderman",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ]
   },
   "spawn_costs": {},
   "carvers": [

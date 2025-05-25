@@ -3,14 +3,11 @@ package com.under.ceaseless.content.item;
 import com.under.ceaseless.Ceaseless;
 import com.under.ceaseless.content.effect.ModEffects;
 import com.under.ceaseless.content.entity.ModEntities;
-import com.under.ceaseless.content.item.custom.TunedChorusFruitItem;
 import net.minecraft.component.type.ConsumableComponent;
 import net.minecraft.component.type.ConsumableComponents;
 import net.minecraft.component.type.FoodComponent;
-import net.minecraft.component.type.FoodComponents;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.item.Item;
-import net.minecraft.item.Items;
 import net.minecraft.item.SpawnEggItem;
 import net.minecraft.item.consume.ApplyEffectsConsumeEffect;
 import net.minecraft.registry.Registries;
@@ -61,18 +58,6 @@ public class ModItems {
             Item::new,
             new Item.Settings()
                     .fireproof()
-    );
-
-    public static final Item TUNED_CHORUS_FRUIT = register(
-            "tuned_chorus_fruit",
-            TunedChorusFruitItem::new,
-            new Item.Settings()
-                    .food(new FoodComponent.Builder()
-                            .nutrition(3)
-                            .alwaysEdible()
-                            .saturationModifier(2f)
-                            .build()
-                    )
     );
 
     public static Item register(String name, Function<Item.Settings, Item> itemFactory, Item.Settings settings) {
