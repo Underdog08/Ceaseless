@@ -69,6 +69,8 @@
   "item.ceaseless.sallow_facade": "Sallow Facade",
   "block.ceaseless.sallow_bramble": "Sallow Bramble",
   "item.ceaseless.sallow_bramble": "Sallow Bramble",
+  "block.ceaseless.sallow_brush": "Sallow Brush",
+  "item.ceaseless.sallow_brush": "Sallow Brush",
 
   "block.ceaseless.bismuth_ore": "Bismuth Ore",
   "item.ceaseless.bismuth_ore": "Bismuth Ore",
@@ -99,6 +101,9 @@
 
   "block.ceaseless.bismuth_block": "Bismuth Block",
   "item.ceaseless.bismuth_block": "Bismuth Block",
+
+  "block.ceaseless.purpetals": "Purpetals",
+  "item.ceaseless.purpetals": "Purpetals",
 
   "item.ceaseless.bismuth": "Bismuth",
   "item.ceaseless.mite_gel": "Mite Gel",
