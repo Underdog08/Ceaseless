@@ -424,7 +424,7 @@ public class ModBlocks {
                     .noCollision()
                     .strength(0.1f, 0.1f)),
             AbstractBlock.Settings.create(),
-            false);
+            true);
 
 
 

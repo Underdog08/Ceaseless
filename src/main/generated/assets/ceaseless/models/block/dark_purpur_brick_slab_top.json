@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "ceaseless:block/dark_purpur_brick",
+    "side": "ceaseless:block/dark_purpur_brick",
+    "top": "ceaseless:block/dark_purpur_brick"
+  }
+}
