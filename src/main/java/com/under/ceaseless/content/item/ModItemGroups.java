@@ -48,9 +48,20 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SALLOW_FACADE.asItem());
                         entries.add(ModBlocks.PURPUR_BULB.asItem());
                         entries.add(ModBlocks.TETHERSTONE.asItem());
+                        entries.add(ModBlocks.DARK_PURPUR_BLOCK.asItem());
+                        entries.add(ModBlocks.DARK_PURPUR_STAIRS.asItem());
+                        entries.add(ModBlocks.DARK_PURPUR_SLAB.asItem());
+                        entries.add(ModBlocks.DARK_PURPUR_WALL.asItem());
+                        entries.add(ModBlocks.DARK_PURPUR_BRICK.asItem());
+                        entries.add(ModBlocks.DARK_PURPUR_BRICK_STAIRS.asItem());
+                        entries.add(ModBlocks.DARK_PURPUR_BRICK_SLAB.asItem());
+                        entries.add(ModBlocks.DARK_PURPUR_BRICK_WALL.asItem());
+                        entries.add(ModBlocks.DARK_PURPUR_PILLAR.asItem());
                         entries.add(ModItems.BISMUTH);
                         entries.add(ModItems.MITE_GEL);
                         entries.add(ModItems.SANDMITE_SPAWN_EGG);
+                        entries.add(ModItems.CITY_KEY);
+                        entries.add(ModItems.SHIP_KEY);
                     }))
                     .build());
 

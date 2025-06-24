@@ -60,6 +60,18 @@ public class ModItems {
                     .fireproof()
     );
 
+    public static final Item CITY_KEY = register(
+            "city_key",
+            Item::new,
+            new Item.Settings()
+    );
+
+    public static final Item SHIP_KEY = register(
+            "ship_key",
+            Item::new,
+            new Item.Settings()
+    );
+
     public static Item register(String name, Function<Item.Settings, Item> itemFactory, Item.Settings settings) {
         RegistryKey<Item> itemKey = RegistryKey.of(Registries.ITEM.getKey(), Identifier.of(Ceaseless.MOD_ID, name));
 

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:delta_feature",
+  "config": {
+    "contents": {
+      "Name": "ceaseless:nullstone"
+    },
+    "rim": {
+      "Name": "ceaseless:packed_end_sand"
+    },
+    "size": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 4,
+      "max_inclusive": 12
+    },
+    "rim_size": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 2,
+      "max_inclusive": 4
+    }
+  }
+}

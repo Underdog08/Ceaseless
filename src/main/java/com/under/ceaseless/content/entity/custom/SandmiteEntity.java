@@ -1,4 +1,4 @@
-package com.under.ceaseless.content.entity;
+package com.under.ceaseless.content.entity.custom;
 
 import com.under.ceaseless.content.effect.ModEffects;
 import net.minecraft.block.BlockState;

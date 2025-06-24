@@ -1,0 +1,38 @@
+{
+  "type": "ceaseless:pinched_column_feature",
+  "config": {
+    "height": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 10,
+      "max_inclusive": 12
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 3,
+      "max_inclusive": 5
+    },
+    "block_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 3,
+          "data": {
+            "Name": "ceaseless:nullstone"
+          }
+        }
+      ]
+    },
+    "top_block_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "ceaseless:end_sand"
+      }
+    },
+    "near_top_block_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "ceaseless:packed_end_sand"
+      }
+    }
+  }
+}

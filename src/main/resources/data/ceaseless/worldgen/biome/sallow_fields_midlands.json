@@ -35,9 +35,7 @@
   "features": [
     [],
     [],
-    [
-      "ceaseless:end_stone_boulder"
-    ],
+    [],
     [],
     [],
     [],
@@ -45,10 +43,13 @@
       "ceaseless:bismuth_ore"
     ],
     [],
-    [],
     [
       "ceaseless:sallow_foliage",
-      "ceaseless:sallow_chorus_plant"
+      "ceaseless:sallow_chorus_plant",
+      "ceaseless:sallow_brush"
+    ],
+    [
+      "ceaseless:end_stone_boulder"
     ],
     []
   ]

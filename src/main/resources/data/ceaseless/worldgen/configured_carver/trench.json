@@ -40,7 +40,11 @@
       "vertical_radius_center_factor": 1
     },
     "replaceable": [
-      "minecraft:end_stone", "ceaseless:sallow_facade"
+      "minecraft:end_stone",
+      "ceaseless:sallow_facade",
+      "ceaseless:nullstone",
+      "ceaseless:end_sand",
+      "ceaseless:packed_end_sand"
     ]
   }
 }

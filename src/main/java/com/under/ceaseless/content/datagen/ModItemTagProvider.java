@@ -21,19 +21,25 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.END_SAND_BRICKS_STAIRS.asItem())
                 .add(ModBlocks.POLISHED_END_SAND_STAIRS.asItem())
                 .add(ModBlocks.POLISHED_END_STONE_SLAB.asItem())
-                .add(ModBlocks.POLISHED_NULLSTONE_STAIRS.asItem());
+                .add(ModBlocks.POLISHED_NULLSTONE_STAIRS.asItem())
+                .add(ModBlocks.DARK_PURPUR_STAIRS.asItem())
+                .add(ModBlocks.DARK_PURPUR_BRICK_STAIRS.asItem());
 
         getOrCreateTagBuilder(ItemTags.SLABS)
                 .add(ModBlocks.CUT_NULLSTONE_SLAB.asItem())
                 .add(ModBlocks.END_SAND_BRICKS_SLAB.asItem())
                 .add(ModBlocks.POLISHED_END_SAND_SLAB.asItem())
                 .add(ModBlocks.POLISHED_END_STONE_SLAB.asItem())
-                .add(ModBlocks.POLISHED_NULLSTONE_SLAB.asItem());
+                .add(ModBlocks.POLISHED_NULLSTONE_SLAB.asItem())
+                .add(ModBlocks.DARK_PURPUR_SLAB.asItem())
+                .add(ModBlocks.DARK_PURPUR_BRICK_SLAB.asItem());
 
         getOrCreateTagBuilder(ItemTags.WALLS)
                 .add(ModBlocks.END_SAND_BRICKS_WALL.asItem())
                 .add(ModBlocks.POLISHED_END_SAND_WALL.asItem())
                 .add(ModBlocks.POLISHED_END_STONE_WALL.asItem())
-                .add(ModBlocks.POLISHED_NULLSTONE_WALL.asItem());
+                .add(ModBlocks.POLISHED_NULLSTONE_WALL.asItem())
+                .add(ModBlocks.DARK_PURPUR_WALL.asItem())
+                .add(ModBlocks.DARK_PURPUR_BRICK_WALL.asItem());
     }
 }

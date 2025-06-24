@@ -1,12 +1,12 @@
 {
   "type": "minecraft:jigsaw",
   "biomes": [
-    "ceaseless:sallow_fields_highlands", "ceaseless:sallow_fields_midlands"
+    "ceaseless:sallow_fields_highlands"
   ],
-  "step": "underground_ores",
+  "step": "surface_structures",
   "terrain_adaptation": "beard_thin",
   "spawn_overrides": {},
-  "start_pool": "ceaseless:end_city_center",
+  "start_pool": "ceaseless:end_city/start",
   "size": 7,
   "start_height": {
     "absolute": 0

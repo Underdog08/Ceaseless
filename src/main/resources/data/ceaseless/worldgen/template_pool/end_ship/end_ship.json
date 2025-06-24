@@ -1,0 +1,15 @@
+{
+  "name": "ceaseless:end_ship/end_ship",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "ceaseless:end_ship/end_ship",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

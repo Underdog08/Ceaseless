@@ -1,7 +1,7 @@
 package com.under.ceaseless.content.block.custom;
 
 import com.under.ceaseless.content.entity.ModEntities;
-import com.under.ceaseless.content.entity.SandmiteEntity;
+import com.under.ceaseless.content.entity.custom.SandmiteEntity;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.SpawnReason;

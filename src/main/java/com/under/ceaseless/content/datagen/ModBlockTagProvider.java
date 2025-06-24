@@ -20,20 +20,26 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.END_SAND_BRICKS_STAIRS)
                 .add(ModBlocks.POLISHED_END_SAND_STAIRS)
                 .add(ModBlocks.POLISHED_END_STONE_SLAB)
-                .add(ModBlocks.POLISHED_NULLSTONE_STAIRS);
+                .add(ModBlocks.POLISHED_NULLSTONE_STAIRS)
+                .add(ModBlocks.DARK_PURPUR_STAIRS)
+                .add(ModBlocks.DARK_PURPUR_BRICK_STAIRS);
 
         getOrCreateTagBuilder(BlockTags.SLABS)
                 .add(ModBlocks.CUT_NULLSTONE_SLAB)
                 .add(ModBlocks.END_SAND_BRICKS_SLAB)
                 .add(ModBlocks.POLISHED_END_SAND_SLAB)
                 .add(ModBlocks.POLISHED_END_STONE_SLAB)
-                .add(ModBlocks.POLISHED_NULLSTONE_SLAB);
+                .add(ModBlocks.POLISHED_NULLSTONE_SLAB)
+                .add(ModBlocks.DARK_PURPUR_SLAB)
+                .add(ModBlocks.DARK_PURPUR_BRICK_SLAB);
 
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.END_SAND_BRICKS_WALL)
                 .add(ModBlocks.POLISHED_END_SAND_WALL)
                 .add(ModBlocks.POLISHED_END_STONE_WALL)
-                .add(ModBlocks.POLISHED_NULLSTONE_WALL);
+                .add(ModBlocks.POLISHED_NULLSTONE_WALL)
+                .add(ModBlocks.DARK_PURPUR_WALL)
+                .add(ModBlocks.DARK_PURPUR_BRICK_WALL);
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.POLISHED_END_STONE)
@@ -67,7 +73,17 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PURPUR_BULB)
 
                 .add(ModBlocks.BISMUTH_ORE)
-                .add(ModBlocks.BISMUTH_BLOCK);
+                .add(ModBlocks.BISMUTH_BLOCK)
+
+                .add(ModBlocks.DARK_PURPUR_BLOCK)
+                .add(ModBlocks.DARK_PURPUR_BRICK)
+                .add(ModBlocks.DARK_PURPUR_PILLAR)
+                .add(ModBlocks.DARK_PURPUR_STAIRS)
+                .add(ModBlocks.DARK_PURPUR_BRICK_STAIRS)
+                .add(ModBlocks.DARK_PURPUR_SLAB)
+                .add(ModBlocks.DARK_PURPUR_BRICK_SLAB)
+                .add(ModBlocks.DARK_PURPUR_WALL)
+                .add(ModBlocks.DARK_PURPUR_BRICK_WALL);
 
         getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
                 .add(ModBlocks.END_SAND);

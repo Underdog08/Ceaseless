@@ -1,0 +1,24 @@
+{
+  "type": "ceaseless:boulder_feature",
+  "config": {
+    "height": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 16,
+      "max_inclusive": 28
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 1,
+      "max_inclusive": 2
+    },
+    "block_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": { "Name": "ceaseless:nullstone" },
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

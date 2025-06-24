@@ -13,5 +13,9 @@ public class CeaselessClient implements ClientModInitializer {
     public void onInitializeClient() {
         EntityRendererRegistry.register(ModEntities.SANDMITE, SandmiteEntityRenderer::new);
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SALLOW_BRAMBLE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ARID_SHRUB, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SALLOW_FLORET, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SALLOW_BRUSH, RenderLayer.getCutoutMipped());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PURPETALS, RenderLayer.getCutout());
     }
 }

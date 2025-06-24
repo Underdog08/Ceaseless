@@ -20,7 +20,8 @@
     [],
     [],
     [
-      "ceaseless:end_stone_boulder"
+      "ceaseless:island_boulder",
+      "ceaseless:island_ground_patch"
     ],
     [],
     [
@@ -29,7 +30,10 @@
     [],
     [],
     [],
-    [],
+    [
+      "ceaseless:purpetals",
+      "ceaseless:island_chorus_plant"
+    ],
     [],
     [
       "minecraft:end_platform"

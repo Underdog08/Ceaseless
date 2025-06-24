@@ -11,9 +11,15 @@
             "type": "minecraft:weighted_state_provider",
             "entries": [
               {
-                "weight": 5,
+                "weight": 10,
                 "data": {
                   "Name": "ceaseless:sallow_bramble"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "ceaseless:sallow_floret"
                 }
               }
             ]

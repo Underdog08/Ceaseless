@@ -30,23 +30,27 @@
   },
   "spawn_costs": {},
   "carvers": [
-    "minecraft:nether_cave"
+    "ceaseless:wastes_trench"
   ],
   "features": [
     [],
     [],
     [
-      "ceaseless:end_wastes_boulder"
+      "ceaseless:test_delta"
     ],
     [],
     [],
     [],
     [
-      "ceaseless:bismuth_ore"
+      "ceaseless:nullstone_patch"
     ],
     [],
-    [],
-    [],
+    [
+      "ceaseless:arid_patch"
+    ],
+    [
+      "ceaseless:sand_patch"
+    ],
     []
   ]
 }

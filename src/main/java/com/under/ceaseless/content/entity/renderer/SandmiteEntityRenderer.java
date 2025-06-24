@@ -1,7 +1,7 @@
 package com.under.ceaseless.content.entity.renderer;
 
 import com.under.ceaseless.Ceaseless;
-import com.under.ceaseless.content.entity.SandmiteEntity;
+import com.under.ceaseless.content.entity.custom.SandmiteEntity;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.client.render.entity.EntityRendererFactory;

@@ -105,6 +105,16 @@ public class ModBlocks {
             AbstractBlock.Settings.create(),
             true);
 
+    public static final Block ARID_SHRUB = register("arid_shrub",
+            settings -> new AridShrubBlock(settings
+                    .sounds(BlockSoundGroup.GRASS)
+                    .breakInstantly()
+                    .noCollision()
+                    .dynamicBounds()
+                    .offset(AbstractBlock.OffsetType.XZ)),
+            AbstractBlock.Settings.create(),
+            true);
+
     public static final Block NULLSTONE = register("nullstone",
             settings -> new Block(settings
                     .sounds(BlockSoundGroup.BASALT)
@@ -261,13 +271,32 @@ public class ModBlocks {
             true);
 
     public static final Block SALLOW_BRAMBLE = register("sallow_bramble",
-            settings -> new BrambleBlock(settings
+            settings -> new SallowFoliageBlock(settings
                     .sounds(BlockSoundGroup.GRASS)
                     .strength(0, 0)
                     .nonOpaque()
                     .noCollision()
                     .offset(AbstractBlock.OffsetType.XZ)
                     .dynamicBounds()),
+            AbstractBlock.Settings.create(),
+            true);
+
+    public static final Block SALLOW_FLORET = register("sallow_floret",
+            settings -> new SallowFoliageBlock(settings
+                    .sounds(BlockSoundGroup.GRASS)
+                    .strength(0, 0)
+                    .nonOpaque()
+                    .noCollision()
+                    .offset(AbstractBlock.OffsetType.XZ)
+                    .dynamicBounds()),
+            AbstractBlock.Settings.create(),
+            true);
+
+    public static final Block SALLOW_BRUSH = register("sallow_brush",
+            settings -> new Block(settings
+                    .sounds(BlockSoundGroup.MOSS_BLOCK)
+                    .strength(Blocks.AZALEA_LEAVES.getHardness(), Blocks.AZALEA_LEAVES.getBlastResistance())
+                    .nonOpaque()),
             AbstractBlock.Settings.create(),
             true);
 
@@ -299,12 +328,101 @@ public class ModBlocks {
             AbstractBlock.Settings.create(),
             true);
 
+    public static final Block DARK_PURPUR_BLOCK = register("dark_purpur_block",
+            settings -> new Block(settings
+                    .sounds(BlockSoundGroup.STONE)
+                    .solid()
+                    .strength(Blocks.PURPUR_BLOCK.getHardness(), Blocks.PURPUR_BLOCK.getBlastResistance())
+                    .requiresTool()),
+            AbstractBlock.Settings.create(),
+            true);
+
+    public static final Block DARK_PURPUR_WALL = register("dark_purpur_wall",
+            settings -> new WallBlock(settings
+                    .sounds(BlockSoundGroup.STONE)
+                    .solid()
+                    .requiresTool()
+                    .strength(Blocks.PURPUR_BLOCK.getHardness(), Blocks.PURPUR_BLOCK.getBlastResistance())),
+            AbstractBlock.Settings.create(),
+            true);
+
+    public static final Block DARK_PURPUR_STAIRS = register("dark_purpur_stairs",
+            settings -> new StairsBlock(ModBlocks.POLISHED_NULLSTONE.getDefaultState(), settings
+                    .sounds(BlockSoundGroup.STONE)
+                    .solid()
+                    .requiresTool()
+                    .strength(Blocks.PURPUR_BLOCK.getHardness(), Blocks.PURPUR_BLOCK.getBlastResistance())),
+            AbstractBlock.Settings.create(),
+            true);
+
+    public static final Block DARK_PURPUR_SLAB = register("dark_purpur_slab",
+            settings -> new SlabBlock(settings
+                    .sounds(BlockSoundGroup.STONE)
+                    .solid()
+                    .requiresTool()
+                    .strength(Blocks.PURPUR_BLOCK.getHardness(), Blocks.PURPUR_BLOCK.getBlastResistance())),
+            AbstractBlock.Settings.create(),
+            true);
+
+    public static final Block DARK_PURPUR_BRICK = register("dark_purpur_brick",
+            settings -> new Block(settings
+                    .sounds(BlockSoundGroup.STONE)
+                    .solid()
+                    .strength(Blocks.PURPUR_BLOCK.getHardness(), Blocks.PURPUR_BLOCK.getBlastResistance())
+                    .requiresTool()),
+            AbstractBlock.Settings.create(),
+            true);
+
+    public static final Block DARK_PURPUR_BRICK_WALL = register("dark_purpur_brick_wall",
+            settings -> new WallBlock(settings
+                    .sounds(BlockSoundGroup.STONE)
+                    .solid()
+                    .requiresTool()
+                    .strength(Blocks.PURPUR_BLOCK.getHardness(), Blocks.PURPUR_BLOCK.getBlastResistance())),
+            AbstractBlock.Settings.create(),
+            true);
+
+    public static final Block DARK_PURPUR_BRICK_STAIRS = register("dark_purpur_brick_stairs",
+            settings -> new StairsBlock(ModBlocks.POLISHED_NULLSTONE.getDefaultState(), settings
+                    .sounds(BlockSoundGroup.STONE)
+                    .solid()
+                    .requiresTool()
+                    .strength(Blocks.PURPUR_BLOCK.getHardness(), Blocks.PURPUR_BLOCK.getBlastResistance())),
+            AbstractBlock.Settings.create(),
+            true);
+
+    public static final Block DARK_PURPUR_BRICK_SLAB = register("dark_purpur_brick_slab",
+            settings -> new SlabBlock(settings
+                    .sounds(BlockSoundGroup.STONE)
+                    .solid()
+                    .requiresTool()
+                    .strength(Blocks.PURPUR_BLOCK.getHardness(), Blocks.PURPUR_BLOCK.getBlastResistance())),
+            AbstractBlock.Settings.create(),
+            true);
+
+    public static final Block DARK_PURPUR_PILLAR = register("dark_purpur_pillar",
+            settings -> new PillarBlock(settings
+                    .sounds(BlockSoundGroup.STONE)
+                    .solid()
+                    .strength(Blocks.PURPUR_BLOCK.getHardness(), Blocks.PURPUR_BLOCK.getBlastResistance())
+                    .requiresTool()),
+            AbstractBlock.Settings.create(),
+            true);
+
     public static final Block BISMUTH_BLOCK = register("bismuth_block",
             settings -> new Block(settings
                     .sounds(BlockSoundGroup.NETHERITE)
                     .solid()
                     .strength(Blocks.DIAMOND_BLOCK.getHardness(), Blocks.DIAMOND_BLOCK.getBlastResistance())
                     .requiresTool()),
+            AbstractBlock.Settings.create(),
+            true);
+
+    public static final Block PURPETALS = register("purpetals",
+            settings -> new PurpetalsBlock(settings
+                    .sounds(BlockSoundGroup.MOSS_BLOCK)
+                    .noCollision()
+                    .strength(0.1f, 0.1f)),
             AbstractBlock.Settings.create(),
             true);
 

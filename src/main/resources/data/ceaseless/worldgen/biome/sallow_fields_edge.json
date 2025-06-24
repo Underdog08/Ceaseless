@@ -35,9 +35,7 @@
   "features": [
     [],
     [],
-    [
-      "ceaseless:end_stone_boulder"
-    ],
+    [],
     [],
     [
       "minecraft:end_gateway_return"
@@ -47,9 +45,12 @@
       "ceaseless:bismuth_ore"
     ],
     [],
-    [],
     [
-      "ceaseless:sallow_foliage"
+      "ceaseless:sallow_foliage",
+      "ceaseless:sallow_brush"
+    ],
+    [
+      "ceaseless:end_stone_boulder"
     ],
     []
   ]

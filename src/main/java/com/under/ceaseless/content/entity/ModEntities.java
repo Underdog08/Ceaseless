@@ -1,6 +1,7 @@
 package com.under.ceaseless.content.entity;
 
 import com.under.ceaseless.Ceaseless;
+import com.under.ceaseless.content.entity.custom.SandmiteEntity;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
 import net.minecraft.entity.*;
@@ -12,7 +13,6 @@ import net.minecraft.util.Identifier;
 import net.minecraft.world.Heightmap;
 
 public class ModEntities {
-
     public static final Identifier SANDMITE_ID = Identifier.of(Ceaseless.MOD_ID, "sandmite");
 
     public static final RegistryKey<EntityType<?>> SANDMITE_KEY =

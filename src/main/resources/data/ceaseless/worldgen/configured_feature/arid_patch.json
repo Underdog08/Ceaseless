@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 25,
+    "xz_spread": 12,
+    "y_spread": 4,
+    "feature": {
+      "feature": {
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "weight": 5,
+                "data": {
+                  "Name": "ceaseless:arid_shrub"
+                }
+              }
+            ]
+          },
+          "schedule_tick": false
+        },
+        "type": "minecraft:simple_block"
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "state": {
+              "Name": ""
+            },
+            "offset": [
+              0,
+              -1,
+              0
+            ],
+            "blocks": [
+              "ceaseless:end_sand"
+            ]
+          }
+        },
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "#minecraft:air"
+          }
+        }
+      ]
+    }
+  }
+}

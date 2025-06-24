@@ -4,8 +4,6 @@ import com.under.ceaseless.content.block.ModBlocks;
 import com.under.ceaseless.content.item.ModItems;
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
 import net.minecraft.client.data.BlockStateModelGenerator;
 import net.minecraft.client.data.ItemModelGenerator;
 import net.minecraft.client.data.Models;
@@ -23,6 +21,8 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool polishedEndSandPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_END_SAND);
         BlockStateModelGenerator.BlockTexturePool endSandBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.END_SAND_BRICKS);
         BlockStateModelGenerator.BlockTexturePool polishedEndStonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_END_STONE);
+        BlockStateModelGenerator.BlockTexturePool darkPurpurPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DARK_PURPUR_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool darkPurpurBrickPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DARK_PURPUR_BRICK);
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_SAND);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PACKED_END_SAND);
@@ -46,6 +46,9 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerAxisRotated(ModBlocks.END_STONE_PILLAR, TexturedModel.CUBE_COLUMN);
         blockStateModelGenerator.registerSingleton(ModBlocks.SALLOW_FACADE, TexturedModel.CUBE_BOTTOM_TOP);
         blockStateModelGenerator.registerTintableCross(ModBlocks.SALLOW_BRAMBLE, BlockStateModelGenerator.CrossType.NOT_TINTED);
+        blockStateModelGenerator.registerTintableCross(ModBlocks.SALLOW_FLORET, BlockStateModelGenerator.CrossType.NOT_TINTED);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SALLOW_BRUSH);
+        blockStateModelGenerator.registerTintableCross(ModBlocks.ARID_SHRUB, BlockStateModelGenerator.CrossType.NOT_TINTED);
         blockStateModelGenerator.registerSingleton(ModBlocks.TETHERSTONE, TexturedModel.CUBE_BOTTOM_TOP);
 
         polishedEndStonePool.wall(ModBlocks.POLISHED_END_STONE_WALL);
@@ -56,11 +59,21 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.INFESTED_END_STONE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BISMUTH_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BISMUTH_BLOCK);
+
+        blockStateModelGenerator.registerAxisRotated(ModBlocks.DARK_PURPUR_PILLAR, TexturedModel.CUBE_COLUMN);
+        darkPurpurPool.wall(ModBlocks.DARK_PURPUR_WALL);
+        darkPurpurPool.stairs(ModBlocks.DARK_PURPUR_STAIRS);
+        darkPurpurPool.slab(ModBlocks.DARK_PURPUR_SLAB);
+        darkPurpurBrickPool.wall(ModBlocks.DARK_PURPUR_BRICK_WALL);
+        darkPurpurBrickPool.stairs(ModBlocks.DARK_PURPUR_BRICK_STAIRS);
+        darkPurpurBrickPool.slab(ModBlocks.DARK_PURPUR_BRICK_SLAB);
     }
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.MITE_GEL, Models.GENERATED);
         itemModelGenerator.register(ModItems.BISMUTH, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CITY_KEY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SHIP_KEY, Models.GENERATED);
     }
 }

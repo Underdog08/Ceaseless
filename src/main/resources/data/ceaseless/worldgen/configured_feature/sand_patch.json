@@ -1,0 +1,27 @@
+{
+  "type": "ceaseless:ground_replacer_feature",
+  "config": {
+    "radius": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 2,
+      "max_inclusive": 5
+    },
+    "rim_thickness": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 1,
+      "max_inclusive": 2
+    },
+    "core_block": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:end_stone"
+      }
+    },
+    "rim_block": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "ceaseless:packed_end_sand"
+      }
+    }
+  }
+}

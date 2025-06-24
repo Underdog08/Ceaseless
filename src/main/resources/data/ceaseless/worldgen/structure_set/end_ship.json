@@ -1,15 +1,15 @@
 {
   "structures": [
     {
-      "structure": "ceaseless:mite_tunnels",
+      "structure": "ceaseless:end_ship",
       "weight": 1
     }
   ],
   "placement": {
     "type": "minecraft:random_spread",
-    "spacing": 12,
-    "separation": 5,
+    "spacing": 30,
+    "separation": 20,
     "spread_type": "triangular",
-    "salt": 19283784
+    "salt": 12897335
   }
 }

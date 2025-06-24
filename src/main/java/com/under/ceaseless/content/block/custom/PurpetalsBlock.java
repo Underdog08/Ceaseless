@@ -10,8 +10,8 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 
-public class BrambleBlock extends PlantBlock {
-    public BrambleBlock(Settings settings) {
+public class PurpetalsBlock extends PlantBlock {
+    public PurpetalsBlock(Settings settings) {
         super(settings);
     }
 
@@ -22,11 +22,11 @@ public class BrambleBlock extends PlantBlock {
 
     @Override
     protected boolean canPlantOnTop(BlockState floor, BlockView world, BlockPos pos) {
-        return floor.isOf(ModBlocks.SALLOW_FACADE);
+        return floor.isOpaqueFullCube();
     }
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
-        return Block.createCuboidShape(4, 0, 4, 12, 10, 12);
+        return Block.createCuboidShape(0, 0, 0, 16, 0, 16);
     }
 }
